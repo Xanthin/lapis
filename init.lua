@@ -34,7 +34,6 @@ minetest.register_node("lapis:lapis_brick", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = true,
-	drop = "lapis:lapis_brick",
 	groups = {cracky=3},
 	sounds = default.node_sound_stone_defaults(),
 })
@@ -109,7 +108,6 @@ minetest.register_node("lapis:lazurite_brick", {
  	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = true,
-	drop = "lapis:lazurite_brick",
 	groups = {cracky=3},
 	sounds = default.node_sound_stone_defaults(),
 })
@@ -126,7 +124,6 @@ minetest.register_node("lapis:lapis_tile", {
 	paramtype = 'light',
 	sunlight_propagates = true,
 	groups = {cracky=3},
-	drop = "lapis:lapis_tile",
 	paramtype2 = "facedir",
 	node_box = {
 		type = "fixed",
@@ -162,7 +159,6 @@ minetest.register_node("lapis:pyrite_block", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = true,
-	drop = "lapis:pyrite_block",
 	groups = {cracky=2},
 	sounds = default.node_sound_stone_defaults(),
 })
