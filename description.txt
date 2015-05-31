@@ -1,0 +1,3 @@
+mod adds several decorative nodes
+based on Lapus Lazuli
+and Pyrite ore.

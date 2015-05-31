@@ -1,0 +1,108 @@
+===========================
+Minetest mod "Lapis"
+modified by Napiophelios rev-001
+===========================
+
+the original Minetest mod:
+Lapis Lazuli mod v1.0
+Written 2015 by LNJ
+License of source code:
+WTFPL
+
+------------------------------------
+
+--Mapgen
+--by Master Gollum from Darkage Mod
+--Licensed: WTFPL
+
+------------------------------------
+
+--Nodeboxes for Columns designed
+--by Artemis from Middle-Ages mod
+--Licensed: WTFPL
+
+--basecode is from Minetest Stairs mod
+-Licensed under GPLv3 or later,
+see http://www.gnu.org/licenses/gpl-3.0.html
+
+------------------------------------
+
+--textures not mentioned by file name
+--Licensed: WTFPL
+--by Napiophelios
+
+------------------------------------
+
+WTFPL:
+This program is free software. It comes without any warranty, to
+the extent permitted by applicable law. You can redistribute it
+and/or modify it under the terms of the Do What The Fuck You Want
+To Public License, Version 2, as published by Sam Hocevar. See
+http://sam.zoy.org/wtfpl/COPYING for more details.
+
+===================================
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
+
+ Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+
+
+===================================
+
+Pyrite Textures:
+lapis_pyrite_sacred.png
+lapis_pyrite_nugget.png
+lapis_pyrite_ingot.png
+lapis_pyrite_coin.png
+lapis_pyrite_block.png
+
+Pyrite Textures by Napiophelios
+License: WTFPL
+
+===================================
+
+lapis_mineral_pyrite.png (32px)
+from HDX texture pack by VanessaE
+Licensed under GPLv3 or later,
+see http://www.gnu.org/licenses/gpl-3.0.html
+
+lapis_mineral_pyrite (16px)
+from More Ores mod by Calinou
+Licensed under GPLv3 or later,
+see http://www.gnu.org/licenses/gpl-3.0.html
+
+===================================
+
+All Lapis Textures derived from these images:
+727px-Lapis-lazuli_hg.jpg (License: Creative Commons CC-BY-SA-2.5) Author:	Hannes Grobe
+Lapis_lazuli_block.jpg (License: Creative Commons CC-BY-SA-3.0)  Author: Luna04
+Lazurite.jpg   (License: Creative Commons CC-BY-SA-3.0) Author	Didier Descouens
+
+Lapis Textures by Napiophelios
+License: Creative Commons CC-BY-SA-3.0
+
+Lapis Textures:
+
+lapis_block.png
+lapis_brick.png
+lapis_brick_side.png
+lapis_brick_top.png
+lapis_lazurite.png
+lapis_lazurite_side.png
+lapis_sacred.png
+lapis_sacred_side.png
+lapis_stone.png
+lapis_tile.png
+
+
+===================================
