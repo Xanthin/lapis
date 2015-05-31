@@ -272,7 +272,7 @@ minetest.register_craft({
 minetest.register_craft({
 	output = 'lapis:lapis_stone 3',
 	recipe = {
-		{'llapis:lapis_cobble'},
+		{'lapis:lapis_cobble'},
 	}
 })
 
