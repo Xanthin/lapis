@@ -10,14 +10,15 @@ dofile(minetest.get_modpath("lapis").."/columns.lua")
 minetest.register_node("lapis:lapisblock", {
 	description = "Lapis with Calcite",
 	inventory_image = "lapis_block.png",
-		tiles = {"lapis_block.png",	"lapis_block.png",	"lapis_block_side.png",	"lapis_block_side.png",	"lapis_block_side.png", "lapis_block_side.png"},
+	tiles = {"lapis_block.png",	"lapis_block.png", "lapis_block_side.png", 
+		"lapis_block_side.png", "lapis_block_side.png", "lapis_block_side.png"},
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = true,
-drop={
-	items = {
+	drop = {
+		items = {
 			{items = {"lapis:lapis_stone"}, rarity =5},
-		  {items = {'lapis:lapis_cobble'}},
+			{items = {'lapis:lapis_cobble'}},
 		},
 	},
 	groups = {cracky=3},
@@ -26,10 +27,11 @@ drop={
 
 --Lapis Bricks ( with Calcite impurities )
 minetest.register_node("lapis:lapis_brick", {
-description = "Lapis Brick",
-inventory_image = "lapis_brick.png",
-tiles = {"lapis_brick_top.png", "lapis_brick_top.png^[transformFXR90", "lapis_brick_side.png", "lapis_brick_side.png^[transformFX", "lapis_brick.png^[transformFX", "lapis_brick.png"},
- paramtype = "light",
+	description = "Lapis Brick",
+	inventory_image = "lapis_brick.png",
+	tiles = {"lapis_brick_top.png", "lapis_brick_top.png^[transformFXR90", "lapis_brick_side.png",
+		"lapis_brick_side.png^[transformFX", "lapis_brick.png^[transformFX", "lapis_brick.png"},
+	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = true,
 	drop = "lapis:lapis_brick",
@@ -41,14 +43,15 @@ tiles = {"lapis_brick_top.png", "lapis_brick_top.png^[transformFXR90", "lapis_br
 minetest.register_node("lapis:lapis_cobble", {
 	description = "Cobbled Lapis",
 	inventory_image = "lapis_cobble.png",
-		tiles = {"lapis_cobble.png", "lapis_cobble.png^[transformFYR90", "lapis_cobble.png^[transformFX", "lapis_cobble.png", "lapis_cobble.png^[transformFX", "lapis_cobble.png"},
+	tiles = {"lapis_cobble.png", "lapis_cobble.png^[transformFYR90", "lapis_cobble.png^[transformFX",
+		"lapis_cobble.png", "lapis_cobble.png^[transformFX", "lapis_cobble.png"},
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = true,
- drop={
-	items = {
+	drop = {
+		items = {
 			{items = {"lapis:lapis_stone"}, rarity =5},
-		  {items = {'lapis:lapis_cobble'}},
+			{items = {'lapis:lapis_cobble'}},
 		},
 	},
 	groups = {cracky=3},
@@ -62,14 +65,15 @@ minetest.register_node("lapis:lapis_cobble", {
 minetest.register_node("lapis:lazurite", {
 	description = "Lazurite",
 	inventory_image = "lapis_lazurite.png",
-	tiles = {"lapis_lazurite.png",	"lapis_lazurite.png",	"lapis_lazurite_side.png",	"lapis_lazurite_side.png",	"lapis_lazurite_side.png", "lapis_lazurite_side.png"},
+	tiles = {"lapis_lazurite.png", "lapis_lazurite.png", "lapis_lazurite_side.png",
+		"lapis_lazurite_side.png", "lapis_lazurite_side.png", "lapis_lazurite_side.png"},
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = true,
-		drop={
+	drop = {
 		items = {
 			{items = {"lapis:lazurite"}, rarity =10},
-		  {items = {'lapis:lapis_stone'}},
+			{items = {'lapis:lapis_stone'}},
 		},
 	},
 	groups = {cracky=2},
@@ -80,14 +84,15 @@ minetest.register_node("lapis:lazurite", {
 minetest.register_node("lapis:sacred_ore", {
 	description = "Lazurite with Pyrite",
 	inventory_image = "lapis_sacred.png",
-	tiles = {"lapis_sacred.png", "lapis_sacred.png", "lapis_sacred_side.png", "lapis_sacred_side.png", "lapis_sacred_side.png", "lapis_sacred_side.png"},
+	tiles = {"lapis_sacred.png", "lapis_sacred.png", "lapis_sacred_side.png", 
+		"lapis_sacred_side.png", "lapis_sacred_side.png", "lapis_sacred_side.png"},
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = true,
-	drop={
+	drop = {
 		items = {
 			{items = {'lapis:pyrite_coin 2'}, rarity =20},
-		  {items = {'lapis:lapis_stone'}},
+			{items = {'lapis:lapis_stone'}},
 			{items = {'lapis:pyrite_lump 2'}},
 		},
 	},
@@ -97,10 +102,11 @@ minetest.register_node("lapis:sacred_ore", {
 
 --Lazurite Bricks ( with pyrite grout ??? )
 minetest.register_node("lapis:lazurite_brick", {
-description = "Lazurite Brick",
-inventory_image = "lapis_lazurite_brick.png",
-tiles = {"lapis_lazurite_brick_top.png", "lapis_lazurite_brick_top.png^[transformFXR90", "lapis_lazurite_brick_side.png", "lapis_lazurite_brick_side.png^[transformFX", "lapis_lazurite_brick.png^[transformFX", "lapis_lazurite_brick.png"},
- paramtype = "light",
+	description = "Lazurite Brick",
+	inventory_image = "lapis_lazurite_brick.png",
+	tiles = {"lapis_lazurite_brick_top.png", "lapis_lazurite_brick_top.png^[transformFXR90", "lapis_lazurite_brick_side.png",
+		"lapis_lazurite_brick_side.png^[transformFX", "lapis_lazurite_brick.png^[transformFX", "lapis_lazurite_brick.png"},
+ 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = true,
 	drop = "lapis:lazurite_brick",
@@ -110,23 +116,23 @@ tiles = {"lapis_lazurite_brick_top.png", "lapis_lazurite_brick_top.png^[transfor
 
 --Lapis Floor Tile ( with pyrite grout ??? )
 minetest.register_node("lapis:lapis_tile", {
-  description = "Lapis Floor Tile",
-  inventory_image ="lapis_tile.png",
+	description = "Lapis Floor Tile",
+	inventory_image ="lapis_tile.png",
 	tiles = {"lapis_tile.png"},
- drawtype = 'nodebox',
+	drawtype = 'nodebox',
 	walkable = false,
- buildable_to = true,
+	buildable_to = true,
 	is_ground_content = true,
- paramtype = 'light',
- sunlight_propagates = true,
+	paramtype = 'light',
+	sunlight_propagates = true,
 	groups = {cracky=3},
-	drop="lapis:lapis_tile",
- paramtype2 = "facedir",
-   node_box = {
-      type = "fixed",
-      fixed =  { -0.5, -0.5, -0.5, 0.5, -0.45, 0.5 }
-   },
-	sounds = default.node_sound_stone_defaults()
+	drop = "lapis:lapis_tile",
+	paramtype2 = "facedir",
+	node_box = {
+		type = "fixed",
+		fixed = {-0.5, -0.5, -0.5, 0.5, -0.45, 0.5 },
+	},
+	sounds = default.node_sound_stone_defaults(),
 })
 
 --Pyrite Ore
@@ -137,8 +143,8 @@ minetest.register_node("lapis:pyrite_ore", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = true,
-	drop={
-	max_items = 1,
+	drop = {
+		max_items = 1,
 		items = {
 			{items = {"lapis:pyrite_coin"}, rarity = 20},
 			{items = {"lapis:pyrite_lump 2"}},
@@ -156,7 +162,7 @@ minetest.register_node("lapis:pyrite_block", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = true,
-	drop="lapis:pyrite_block",
+	drop = "lapis:pyrite_block",
 	groups = {cracky=2},
 	sounds = default.node_sound_stone_defaults(),
 })
@@ -166,7 +172,8 @@ minetest.register_node("lapis:pyrite_block", {
 --Disabled____needs better texture
 minetest.register_node("lapis:pyrite_sacred", {
 	description = "Cathedral Pyrite",
-	tiles = {"lapis_pyrite_sacred.png", "lapis_pyrite_block.png", "lapis_pyrite_sacred_side.png", "lapis_pyrite_sacred_side.png", "lapis_pyrite_sacred_side.png", "lapis_pyrite_sacred_side.png",},
+	tiles = {"lapis_pyrite_sacred.png", "lapis_pyrite_block.png", "lapis_pyrite_sacred_side.png",
+		"lapis_pyrite_sacred_side.png", "lapis_pyrite_sacred_side.png", "lapis_pyrite_sacred_side.png"},
 	inventory_image = "lapis_pyrite_sacred.png",
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -226,8 +233,8 @@ minetest.register_craftitem("lapis:lapis_stone", {
 
 --Naturally formed Flat disc of Pyrite with radiating striations
 minetest.register_craftitem("lapis:pyrite_coin", {
-description = "Pyrite Sun",
-inventory_image = "lapis_pyrite_coin.png",
+	description = "Pyrite Sun",
+	inventory_image = "lapis_pyrite_coin.png",
 })
 
 minetest.register_craftitem("lapis:pyrite_ingot", {
