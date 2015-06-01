@@ -29,7 +29,7 @@ minetest.register_node("lapis:lapis_brick", {
 	inventory_image = "lapis_brick.png",
 	tiles = {"lapis_brick_top.png", "lapis_brick_top.png^[transformFXR90", "lapis_brick_side.png",
 		"lapis_brick_side.png^[transformFX", "lapis_brick.png^[transformFX", "lapis_brick.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	groups = {cracky=3},
 	sounds = default.node_sound_stone_defaults(),
 })
@@ -40,7 +40,7 @@ minetest.register_node("lapis:lapis_cobble", {
 	inventory_image = "lapis_cobble.png",
 	tiles = {"lapis_cobble.png", "lapis_cobble.png^[transformFYR90", "lapis_cobble.png^[transformFX",
 		"lapis_cobble.png", "lapis_cobble.png^[transformFX", "lapis_cobble.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	drop = {
 		items = {
 			{items = {"lapis:lapis_stone"}, rarity =5},
@@ -95,7 +95,7 @@ minetest.register_node("lapis:lazurite_brick", {
 	inventory_image = "lapis_lazurite_brick.png",
 	tiles = {"lapis_lazurite_brick_top.png", "lapis_lazurite_brick_top.png^[transformFXR90", "lapis_lazurite_brick_side.png",
 		"lapis_lazurite_brick_side.png^[transformFX", "lapis_lazurite_brick.png^[transformFX", "lapis_lazurite_brick.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	groups = {cracky=3},
 	sounds = default.node_sound_stone_defaults(),
 })
@@ -108,7 +108,7 @@ minetest.register_node("lapis:lapis_tile", {
 	drawtype = 'nodebox',
 	walkable = false,
 	buildable_to = true,
-	is_ground_content = true,
+	is_ground_content = false,
 	paramtype = 'light',
 	groups = {cracky=3},
 	paramtype2 = "facedir",
@@ -141,7 +141,7 @@ minetest.register_node("lapis:pyrite_block", {
 	description = "Pyrite Block",
 	tiles = {"lapis_pyrite_block.png"},
 	inventory_image = "lapis_pyrite_block.png",
-	is_ground_content = true,
+	is_ground_content = false,
 	groups = {cracky=2},
 	sounds = default.node_sound_stone_defaults(),
 })
@@ -154,7 +154,7 @@ minetest.register_node("lapis:pyrite_sacred", {
 	tiles = {"lapis_pyrite_sacred.png", "lapis_pyrite_block.png", "lapis_pyrite_sacred_side.png",
 		"lapis_pyrite_sacred_side.png", "lapis_pyrite_sacred_side.png", "lapis_pyrite_sacred_side.png"},
 	inventory_image = "lapis_pyrite_sacred.png",
-	is_ground_content = true,
+	is_ground_content = false,
 	groups = {cracky=2},
 	sounds = default.node_sound_stone_defaults(),
 })
